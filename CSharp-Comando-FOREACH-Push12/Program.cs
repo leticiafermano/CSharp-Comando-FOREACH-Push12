@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace CSharp_Comando_FOREACH_Push12
+namespace LogicaDeProgramacao_P8_FOREACH
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] nomes = new string[] { "Letícia", "Célio", "Luana", "Vanda", "Vanderlei" };
+            foreach (string nome in nomes)
+                Console.WriteLine(nome);
         }
     }
 }
